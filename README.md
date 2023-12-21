@@ -1,5 +1,5 @@
 # Cybertech-DeepL-Classifier
-NN detection, classification, localization for KUKA Cybertech for Deep Learning course for CIIRC Testbed for Industry 4.0
+_NN detection, classification, localization for KUKA Cybertech for Deep Learning course for CIIRC Testbed for Industry 4.0_
 
 The repository contains a project that is part of the 02456 Deep learning course at **DTU** in collaboration with **CIIRC Testbed for Industry 4.0**. This is a set of experiments to determine a suitable method for real-time detection, classification and segmentation of objects, which will later be integrated into a pipeline controlling an industrial KUKA Cybertech robot.
 
@@ -13,11 +13,15 @@ A jupyter notebook containing the training and evaluation progress on the select
 
 ## Robot system and control
 The high level control, coded in Python, utilizes an OPC UA Client that runs on the PC. It includes a finite state machine for the trajectory planning based on visual recognition, which reads sensor and robot data from the OPC UA nodes and sends high level control actions and path trajectory updates to the OPC UA Server on the PLC. These inputs are converted into control instructions using the mx Automation package and are sent to the robot controller via Profinet.
+
+
 ![RobotVideo](readme_imgs/robot_video.gif)
 
 
 ## HW setup
 Our setup consists of a KUKA KR Cybertech industrial robot, a PLC, a conveyor belt with rotary encoder and an Intel Realsense RGBD camera. We mounted apriltags on the conveyor for robot workspace detection.
+
+
 ![StateMachineSimple](readme_imgs/StateMachineSimple.png)
 ![HWSetup](readme_imgs/HWSetup.png)
 

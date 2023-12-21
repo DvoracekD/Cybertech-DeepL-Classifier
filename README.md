@@ -8,6 +8,8 @@ The images of the search objects used for data synthesis can be found in the `ob
 
 A jupyter notebook containing the training and evaluation progress on the selected method (**YOLOv8**) can be found in the file `main.ipynb`. The experimental use of the YOLACT architecture is then in the file `yolact_training.ipynb`.
 
+It is uploaded solely for academic grading and, therefore, does not include original commits and sensitive data.
+
 
 ![BeltSegmentation](readme_imgs/belt_segmentation.gif)
 

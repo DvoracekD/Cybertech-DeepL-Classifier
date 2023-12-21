@@ -1,0 +1,3 @@
+[submodule "deeplearning-yolact"]
+	path = deeplearning-yolact
+	url = git@github.com:DvoracekD/deeplearning-yolact.git
